@@ -12,8 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 
 class MemberServiceTest {
 
-    MemberService memberService = new MemberService();
-    MemoryMemberRepository memberRepository = new MemoryMemberRepository();
+    MemberService memberService;
+    MemoryMemberRepository memberRepository;
 
     @BeforeEach
     public void beforeEach() {
